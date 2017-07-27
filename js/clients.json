@@ -1,0 +1,7 @@
+{
+  "clients":[{"fname":"John", "lname":"Doe", "age":30, "city":"New York"},
+              {"fname":"Jim","lname":"Bean", "age":32, "city":"Newark"},
+              {"fname":"Bob","lname":"Bob", "age":22, "city":"Chicago"},
+              {"fname":"Jimmy","lname":"Page", "age":52, "city":"Boston"},
+              {"fname":"Albert","lname":"Morrow", "age":42, "city":"Detroit"}]
+}
