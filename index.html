@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -16,11 +16,11 @@
 
 <body>
 
-<select name="select" id="select">
+<select name="select" id="selectVal" onchange="clientManager.sortClients()">
   <option value="sort" selected="selected">Sort the table by :</option>
   <option value="lname">Last name</option>
   <option value="age">Age</option>
-  <option value="city">City name</option>
+  <option value="city">City</option>
 </select>
 
 <table id="clienttable">
@@ -32,18 +32,17 @@
       <td>City</td>
     </tr>
   </thead>
-  <tbody>
+  <tbody id="tabBody">
   </tbody>
 </table>
 
-
-<!-- ############## JS sources ############## -->
+  <!-- ############## JS sources ############## -->
   <script src="js/plugins.js"></script>
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/tether.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/main.js"></script>
-<!-- ############## JS sources ############## -->
+  <!-- ############## JS sources ############## -->
 </body>
 
 </html>
