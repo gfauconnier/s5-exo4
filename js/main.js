@@ -53,6 +53,7 @@ function clientsManager(){
   this.sortClients = function() {
     var selectElem = document.getElementById("selectVal");
     var sortOrder = selectElem.options[selectElem.selectedIndex].value;
+    // sorts the elements of the json file
     if (sortOrder != "sort") {
       clientsFile.clients.sort(function(a, b) {
         if (a[sortOrder] < b[sortOrder]) {
