@@ -68,7 +68,8 @@ function clientsManager(){
   }
 }
 
-clientManager = new clientsManager();
+var clientManager = new clientsManager();
+document.getElementById("selectVal").addEventListener("change", function(){clientManager.sortClients();});
 
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
