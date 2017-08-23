@@ -1,24 +1,42 @@
-select {
-  margin: 2vh 40vw;
-  width: 20vw;
+select
+{
+    width: 20vw;
+    margin: 2vh 40vw;
 }
 
-table {
-  margin: auto;
+table
+{
+    margin: auto;
 }
 
-thead {
-  background-color: lightblue;
+thead
+{
+    background-color: lightblue;
 }
 
-tr:nth-child(even) {
-  background-color: lightgrey;
+tr:nth-child(even)
+{
+    background-color: lightgrey;
 }
 
-th, td {
-  padding: 5px;
+th,
+td
+{
+    padding: 5px;
 }
 
-td {
-  width: 20vw;
+td
+{
+    width: 20vw;
+}
+
+.addClient
+{
+    width: 50vw;
+    margin: 3vh auto;
+    padding: 30px;
+
+    border: 2px outset black;
+    border-radius: 12px;
+    box-shadow: 2px 2px grey;
 }
